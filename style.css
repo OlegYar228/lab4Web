@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply box-sizing: border-box globally */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    width: 200px;
+    height: auto;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  .content {
+    padding: 20px;
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+    padding: 150px;
+  }
+  
+  .main-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .main-banner{
+    width: 100%;
+    height: auto;
+  }
+  
+  .collage-section__collage{
+    width: 1280px;
+    height: auto;
+  }
+
+  .collage-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
